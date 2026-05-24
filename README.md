@@ -1,5 +1,7 @@
 # cn-apps-direct
 
+[English](README.md) | [简体中文](README_zh-CN.md)
+
 Curated `PROCESS-NAME` bypass rules for common Chinese apps on macOS, in
 mihomo / Clash classical rule-provider format.
 
