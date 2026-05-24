@@ -1,0 +1,47 @@
+# Clash-FX cn-apps-direct
+# https://github.com/Clash-FX/cn-apps-direct
+#
+# Curated PROCESS-NAME bypass rules for common Chinese apps on macOS.
+# Consumed by ClashFX's "Bypass Common Chinese Apps" feature.
+#
+# Format: mihomo / Clash classical rule-provider
+# Matches the bare macOS executable in App.app/Contents/MacOS/<name>
+
+# === IM / Messaging ===
+PROCESS-NAME,WeChat,DIRECT
+PROCESS-NAME,QQ,DIRECT
+PROCESS-NAME,TIM,DIRECT
+PROCESS-NAME,WXWork,DIRECT
+PROCESS-NAME,DingTalk,DIRECT
+PROCESS-NAME,Lark,DIRECT
+PROCESS-NAME,Feishu,DIRECT
+
+# === Video Conferencing ===
+PROCESS-NAME,wemeetapp,DIRECT
+
+# === Music ===
+PROCESS-NAME,NeteaseMusic,DIRECT
+PROCESS-NAME,QQMusic,DIRECT
+
+# === Video / Streaming ===
+PROCESS-NAME,bilibili,DIRECT
+PROCESS-NAME,iQIYI,DIRECT
+PROCESS-NAME,Youku,DIRECT
+
+# === Cloud Storage ===
+PROCESS-NAME,BaiduNetdisk,DIRECT
+PROCESS-NAME,aDrive,DIRECT
+PROCESS-NAME,QuarkCloudDrive,DIRECT
+PROCESS-NAME,Thunder,DIRECT
+
+# === Office ===
+PROCESS-NAME,wpsoffice,DIRECT
+PROCESS-NAME,TencentDocs,DIRECT
+
+# === Lifestyle ===
+PROCESS-NAME,xiaohongshu,DIRECT
+PROCESS-NAME,Meituan,DIRECT
+
+# === Remote Desktop (popular in CN) ===
+PROCESS-NAME,ToDesk,DIRECT
+PROCESS-NAME,SunloginClient,DIRECT
